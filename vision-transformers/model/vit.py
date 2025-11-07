@@ -3,7 +3,7 @@ import torch.nn as nn
 from functools import partial  # 引入 functools 模块中的 partial 函数，用于创建函数的偏应用版本
 from collections import OrderedDict  # 引入 OrderedDict 类，用于保持字典的插入顺序
 # 视频讲解链接https://www.bilibili.com/video/BV1hs6aY7EWQ/?spm_id_from=333.1387.collection.video_card.click
-# 此视频出自B站up主DT算法工程师前钰
+
 
 def drop_path(x, drop_prob: float = 0., training: bool = False):
     """
